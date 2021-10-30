@@ -680,10 +680,8 @@ public:
 	bool isBolt() { return (settings.flags & kNotBolt) != kNotBolt; }
 	bool isPlayable() { return (settings.flags & kNotPlayable) != kNotPlayable; }
 
-	UInt64				unk100;		// 100
-	UInt64				unk108;		// 108
-	AmmoSettings		settings;	// 110
-	StringCache::Ref	unk98;		// 120
+	AmmoSettings		settings;	// 100
+	StringCache::Ref	unk98;		// 108
 };
 
 // 30 
