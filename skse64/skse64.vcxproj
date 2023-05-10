@@ -173,7 +173,7 @@
       <SubSystem>Windows</SubSystem>
     </Link>
     <PostBuildEvent>
-      <Command>copy "$(TargetPath)" "$(SkyrimVRPath)\$(TargetFileName)" /Y</Command>
+      <Command>REM copy "$(TargetPath)" "$(SkyrimVRPath)\$(TargetFileName)" /Y</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
